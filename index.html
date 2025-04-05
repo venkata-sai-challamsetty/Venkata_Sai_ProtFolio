@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="heading">
+                <p>Portfolio</p>
+            </div>
+            <div class="hamburger" onclick="toggleMenu()">☰</div>
+           
+            <ul>
+                
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#qualifications">Qualifications</a></li>
+               
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home">
+       <div class="home-container">
+        <div class="left-side">
+            <h1>Hai 🖐️ </h1>
+            <h2>I'm Challamsetty Venkata Sai</h2>
+            <p>I am a passionate<b> front-end developer</b> and a final-year B.Tech student at <b>Sir C.R. Reddy College of Engineering</b>, Eluru, specializing in Computer Science
+                 and Engineering. I love crafting intuitive and visually engaging web experiences, bringing ideas to life with clean and efficient code."</p>
+           <a href="#contact"><button>Contact Me</button></a>
+
+        </div>
+        <div class="right-side">
+            <img src="venkatasai.jpg">
+
+        </div>
+
+       </div>
+    </section>
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about">
+            <div class="about-left">
+                <img src="venkatasai.jpg">
+
+            </div>
+            <div class="about-right">
+                <h3>My Introduction</h3>
+                <p>I am a highly motivated final-year Computer Science and Engineering student at Sir C.R. Reddy College of Engineering, with a CGPA of 8.56/10. My expertise lies in front-end development, low-latency applications, and high-performance web solutions, with proficiency in Java, C, C++, SQL, and TypeScript. I have hands-on experience in developing scalable and interactive web applications and a strong understanding of cloud computing through my internship at Exclr Company.
+
+                    I have built multiple React.js applications, including a Movie App integrating the OMDb API, a Task Management App using TypeScript, and a Travel List App, all focused on performance optimization, UI enhancements, and efficient state management. My problem-solving skills are reflected in my NPTEL Silver Badge in Data Structures and Algorithms using Java and my achievement of solving 150+ problems on the Striver A2Z DSA Sheet.
+                    
+                    In addition to my academic excellence, I have demonstrated my technical capabilities by securing first prize in a coding competition at my college. I am passionate about building efficient and scalable web applications, contributing to mission-critical projects, and constantly learning new technologies to refine my skill set.</p>
+               <a href="VenkataSaiChallamsettyResume.pdf"><Button>DownLoad resume</Button></a>
+
+            </div>
+
+        </div>
+
+    </section>
+    
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+  
+            <div class="skill-wrapper">
+              <div class="skill-category" onclick="toggleSkills('programminglanguage')">
+                Programming Languages <span>&#9662;</span>
+              </div>
+              <div class="skills-list" id="programminglanguage">
+                <ul>
+                  <li>Java</li>
+                  <li>C Language</li>
+                  <li>C++ Language</li>
+                  <li>Python</li>
+                  <li>Sql</li>
+                </ul>
+              </div>
+            </div>
+          
+            <div class="skill-wrapper">
+              <div class="skill-category" onclick="toggleSkills('webskills')">
+                Web Technologies <span>&#9662;</span>
+              </div>
+              <div class="skills-list" id="webskills">
+                <ul>
+                  <li>Html</li>
+                  <li>Css</li>
+                  <li>JavaScript</li>
+                  <li>TypeScript</li>
+                  <li>React Js</li>
+                  <li>Node Js</li>
+                </ul>
+              </div>
+            </div>
+          
+            <div class="skill-wrapper">
+              <div class="skill-category" onclick="toggleSkills('frameworks')">
+                Frame Works <span>&#9662;</span>
+              </div>
+              <div class="skills-list" id="frameworks">
+                <ul>
+                  <li>Bootstrap</li>
+                  <li>Numpy</li>
+                </ul>
+              </div>
+            </div>
+          
+            <div class="skill-wrapper">
+              <div class="skill-category" onclick="toggleSkills('databases')">
+                Databases <span>&#9662;</span>
+              </div>
+              <div class="skills-list" id="databases">
+                <ul>
+                  <li>MySQL</li>
+                </ul>
+              </div>
+            </div>
+          
+            <div class="skill-wrapper">
+              <div class="skill-category" onclick="toggleSkills('developertools')">
+                Developer Tools <span>&#9662;</span>
+              </div>
+              <div class="skills-list" id="developertools">
+                <ul>
+                  <li>Git/GitHub</li>
+                  <li>Google Collab</li>
+                  <li>VS Code</li>
+                  <li>Eclipse</li>
+                </ul>
+              </div>
+            </div>
+          
+            <div class="skill-wrapper">
+              <div class="skill-category" onclick="toggleSkills('backendtools')">
+                Backend Development <span>&#9662;</span>
+              </div>
+              <div class="skills-list" id="backendtools">
+                <ul>
+                  <li>Node js</li>
+                </ul>
+              </div>
+            </div>
+          
+          </div>
+          
+    </section>
+    
+    <section id="qualifications">
+        <h2>Qualifications</h2>
+        <div class="qualification">
+            <div class="degree">
+                <h1>Bachelors Degree</h1>
+                <p><b>College Name</b> : Sir C.R Reddy College Of Engineering</p>
+                <p><b>University</b> : Jawaharlal Nehru Technological University Kakinada</p>
+
+                <p><b>Branch</b> : Computer Science And Engineering</p>
+                <p><b>Start Date and Year</b> : 2021</p>
+                <p><b>End Date and Year</b> : 2025</p>
+                <p><b>CGPA</b> : 8.5</p>
+
+            </div>
+            <div class="inter">
+                <h1>Intermediate</h1>
+                <p><b>College Name</b> : Sri Chaithanya Junior College</p>
+               
+
+                <p><b>Stream</b>: Math Physics and Chemistry(MPC)</p>
+                <p><b>Start Date and Year</b> : 2019</p>
+                <p><b>End Date and Year</b> : 2021</p>
+                <p><b>Percentage</b> : 93%</p>
+
+            </div>
+            <div class="tenth">
+                <h1>Secondary Education</h1>
+                <p><b>School Name</b> : St John's EM School</p>
+               
+
+                
+                <p><b>Start Date and Year</b> : 2018</p>
+                <p><b>End Date and Year</b> : 2019</p>
+                <p><b>Percentage</b> : 95%</p>
+
+            </div>
+        </div>
+       
+    </section>
+    
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="slider-container">
+            <div class="slider">
+                <div class="slide">
+                    <h2>Real Time Travel List App</h2>
+                    <p>The Travel List App is a React.js-based application designed to help users manage their travel packing list efficiently. Users can add items, mark them as packed, delete items, and sort the list based on their preferences. The app is built using the useState hook for state management.</p>
+                    <div class="buttons">
+                        <a href="https://github.com/Challamsetty-venkata-sai/Real_Time_Travel_List_App" target="_blank">GitHub Code</a>
+                        <a href="https://real-time-travel-list-app.vercel.app/" target="_blank">Live Demo</a>
+                    </div>
+                </div>
+                <div class="slide">
+                    <h2>Real Time Movie Fetching App</h2>
+                    <p>This is a dynamic and responsive Movie Search & Watchlist Application built with React. Users can search for movies using the OMDb API, view details, rate them with a custom-built star component, and manage their watched list — which is stored using local storage for persistence.</p>
+                    <div class="buttons">
+                        <a href="https://github.com/Challamsetty-venkata-sai/Real_Time_Movies_App" target="_blank">GitHub Code</a>
+                        <a href="https://real-time-movies-app.vercel.app/" target="_blank">Live Demo</a>
+                    </div>
+                </div>
+                <div class="slide">
+                    <h2>Real Time Quiz App</h2>
+                    <p>The Quiz App is a React.js-based application designed to provide an engaging quiz experience. It leverages the useReducer hook for state management and includes a countdown timer that ensures automatic submission when time runs out. A fake JSON server is used as the backend to store quiz questions.</p>
+                    <div class="buttons">
+                        <a href="https://github.com/Challamsetty-venkata-sai/Real_Time_Quiz_App" target="_blank">GitHub Code</a>
+                        <a href="https://real-time-quiz-app-kohl.vercel.app/" target="_blank">Live Demo</a>
+                    </div>
+                </div>
+                <div class="slide">
+                    <h2>Real Time Bank Transaction App</h2>
+                    <p>The Bank Transaction App is a web-based application built using HTML, CSS, and JavaScript, designed to simulate basic banking functionalities. It allows users to perform essential financial operations like depositing money, withdrawing funds, and viewing transaction history.</p>
+                    <div class="buttons">
+                        <a href="https://github.com/Challamsetty-venkata-sai/RealTimeBankApplication" target="_blank">GitHub Code</a>
+                        <a href="https://real-time-bank-application.vercel.app/" target="_blank">Live Demo</a>
+                    </div>
+                </div>
+                <div class="slide">
+                    <h2>Real Time Star Rating Component</h2>
+                    <p>This is a dynamic and reusable Star Rating UI component built with React and the useState hook. It allows users to rate content (like movies, products, etc.) by clicking on star icons. It's lightweight, customizable, and integrates easily into any React project.</p>
+                    <div class="buttons">
+                        <a href="https://github.com/Challamsetty-venkata-sai/Real_Time_Rating_Star_Component" target="_blank">GitHub Code</a>
+                        <a href="https://real-time-rating-star-component.vercel.app/" target="_blank">Live Demo</a>
+                    </div>
+                </div>
+            </div>
+            <div class="arrows">
+                <button class="arrow" id="prev">&#9665;</button>
+                <button class="arrow" id="next">&#9655;</button>
+            </div>
+        </div>
+        
+       
+    </section>
+    
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <input type="text" placeholder="Your Name" >
+            <input type="email" placeholder="Your Email" >
+            <textarea placeholder="Your Message"></textarea>
+            <button type="submit"><a href="mailto:venkatasai200410@gmail.com">Send</a></button>
+        </form>
+    </section>
+</body>
+</html>
