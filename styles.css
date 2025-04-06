@@ -305,10 +305,115 @@ form a{
   
 
 
+@media (min-width:400px ) and (max-width:500px)
+{
+    #about{
+        margin-top: 20%;
+    }
+    #skills{
+        margin-top: 150%;
+    }
+    .hamburger {
+        display: block;
+        font-size: 30px;
+        cursor: pointer;
+        padding: 10px;
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        z-index: 1000;
+      }
+    
+      nav ul {
+        display: none;
+        flex-direction: column;
+        background-color: #222; /* or your nav color */
+        width: 90vw;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        text-align: center;
+        z-index: 999;
+      }
+    
+      nav ul.show {
+        display: flex;
+      }
+    
+      nav ul li {
+        margin: 10px 0;
+      }
+      .heading p{
+        margin-right: 60%;
+        
+    }
+    .home-container{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .left-side{
+        margin-left: -45px;
+        width: 95vw;
+    }
+    .left-side h2{
+        font-size: 20px;
+    }
+    .right-side img,.about-left img{
+        width:200px;
 
+    }
+    .about-left img{
+        margin-left: 10px;
+    }
+    #about{
+        margin-top: 50%;
+       
+    }
+    .about-right{
+        width:95vw;
+    }
+    .about{
+        display: flex;
+        flex-direction: column;
+        margin-left: -45px;
+    }
+    .about h3{
+        margin-left: -5%;
+    }
+    .about-right button{
+        margin-left: -10%;
+    }
+    #qualifications{
+        margin-top: 90%;
+    }
+    .qualification{
+        display: flex;
+        flex-direction: column;
+        margin-left: -45px;
+    }
+    .degree,.inter,.tenth{
+        width:95vw;
+    }
+    #projects{
+        margin-top: 150%;
+    }
+    .slider-container{
+        /* border:1px solid red; */
+        width:90vw;
+        margin-left: -45px;
+    }
+    .slide h2{
+        font-size: 16px;
+    }
+    .slide p{
+        font-size: 12px;
+    }
+
+
+}
 
 /* Devices up to 768px (Tablets and Mobiles) */
-@media (max-width: 768px) {
+@media (min-width: 501px) and (max-width:768px) {
     .hamburger {
       display: block;
       font-size: 30px;
@@ -324,9 +429,9 @@ form a{
       display: none;
       flex-direction: column;
       background-color: #222; /* or your nav color */
-      width: 100%;
+      width: 90vw;;
       position: absolute;
-      top: 60px;
+      top: 80px;
       left: 0;
       text-align: center;
       z-index: 999;
@@ -340,7 +445,7 @@ form a{
       margin: 10px 0;
     }
     .heading p{
-        margin-right: 60%;
+        margin-right: 95vw;
     }
     .home-container{
         display: flex;
@@ -388,7 +493,7 @@ form a{
         margin-top: 150%;
     }
     #qualifications{
-        margin-top: 25%;
+        margin-top: 90%;
     }
     .qualification{
         display: flex;
@@ -399,10 +504,10 @@ form a{
         width:97vw;
     }
     #projects{
-        margin-top: 100%;
+        margin-top: 150%;
     }
     .slider-container{
-        border:1px solid red;
+        /* border:1px solid red; */
         width:95vw;
         margin-left: -45px;
     }
@@ -414,7 +519,7 @@ form a{
     }
   }
   
-  @media (min-width: 768px) and (max-width: 1024px) {
+  @media (min-width: 769px) and (max-width: 1024px) {
     
     .hamburger {
       display: none;
@@ -442,6 +547,36 @@ form a{
         margin-right: 20px;
     }
     #skills{
-        margin-top: 25%;
+        margin-top: 75%;
+    }
+    #qualifications{
+        margin-top: 20%;
+    }
+    .degree,.tenth,.inter{
+        width:97vw;
+        height:350px;
+        margin-left: -20px;
+    }
+    .qualification{
+        display: flex;
+        justify-content: center;
+        gap:30px
+
+    }
+  }
+  @media (min-width:1025px){
+    #skills{
+        margin-top: 20%;
+    }
+    .right-side img{
+        width:200px;
+        margin-top: 10%;
+    }
+    .about-left img{
+        width:200px;
+        margin-top: 40%;
+    }
+    #qualifications{
+        margin-top: 20%;
     }
   }
